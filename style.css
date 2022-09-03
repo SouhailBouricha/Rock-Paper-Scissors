@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222831;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    min-height: 20vh;
+    max-height: 131px;
+    background-color: #111720;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FAC650;
+    line-height: 1.8;
+    font-family: 'Press Start 2P', cursive;
+}
+.head{
+    padding: 2rem;
+}
+/* Game Section */
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    color: #dddddd;
+}
+.first{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.second{
+    font-size: 1.25rem;
+    margin-bottom: 0.9375rem;
+}
+.result_board{
+    display: flex;
+    padding: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+.board_img{
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+/*Options */
+.options{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+}
+.card{
+    background-color: #34393f;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #4A4F57;
+}
+.card_img{
+    pointer-events: none;
+}
+.puUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 23, 32,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    clip-path: circle(50px);
+}
+.content{
+    background-color: #111720;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 6rem;
+    border-radius: 1rem;
+    background-color: #222831;
+    font-size: 1.5rem;
+    color: #dddddd;
+}
+.message{
+    margin-bottom: 2rem;
+}
+.restart{
+    border: none;
+    outline: none;
+    background-color: #4A4F57;
+    padding: 0.5rem 1rem;
+    color: #dddddd;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.restart:hover{
+    background-color: #515458;
+
+}
+/* Respansive */
+@media screen and (max-width:671px) {
+    .head{
+        font-size: 1.3rem;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .result_board{
+        flex-direction: column;
+    }
+    .first{
+        font-size: 1.7rem;
+    }
+    .second{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:575px) {
+    .options{
+        padding-bottom: 2rem;
+    }
+}
