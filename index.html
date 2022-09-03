@@ -20,5 +20,51 @@
     <header>
         <h1 class="head">ROCK PAPER SCISSORS</h1>
     </header>
+    <div class="game">
+        <h2 class="first">Choose your weapon</h2>
+        <h4 class="second">First to score 5 points wins the game</h4>
+        <div class="result_board">
+          <div class="board player">
+            <img
+              src="./img/iconmonstr-help-1 1.png"
+              class="board_img board_img_human"
+              alt="board_img"
+            />
+            <h4 class="score">Player: <span class="score_player">0</span></h4>
+          </div>
+          <div class="board pc">
+            <img
+              src="./img/iconmonstr-help-1 1.png"
+              class="board_img board_img_pc"
+              alt="board_img"
+            />
+            <h4 class="score">Computer: <span class="score_pc">0</span></h4>
+          </div>
+        </div>
+        <div class="options">
+          <div class="card rock">
+            <img src="./img/rock.png" class="card_img" alt="rock" />
+          </div>
+          <div class="card papper">
+            <img src="./img/papper.png" class="card_img" alt="papper" />
+          </div>
+          <div class="card scissors">
+            <img src="./img/scissors.png" class="card_img" alt="scissors" />
+          </div>
+        </div>
+      </div>
+      <div class="puUp">
+        <div class="content">
+          <h3 class="message"></h3>
+          <button class="restart">Play Again</button>
+        </div>
+      </div>
+      <script src="./app.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+        integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
   </body>
 </html>
