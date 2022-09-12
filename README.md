@@ -1,7 +1,7 @@
 # Project: Rock Paper Scissors 🚀
 
 
-![Design preview for the Project: Rock Paper Scissors layout](./img/img1.PNG)
+![Design preview for the Project: Rock Paper Scissors App layout](./img/img1.PNG)
 
 ## Welcome! 👋
 
